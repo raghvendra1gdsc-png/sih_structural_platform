@@ -1,0 +1,74 @@
+# ==============================================================================
+# Render Blueprint Specification — National Weather Intelligence Platform
+# Project: SIH 2026
+# Docs: https://render.com/docs/blueprint-spec
+# ==============================================================================
+
+databases:
+  - name: sih-weather-db
+    databaseName: weather_db
+    user: sih_user
+    plan: free
+    ipAllowList: [] # Allow internal & cloud connections
+
+services:
+  # ----------------------------------------------------------------------------
+  # 1. FastAPI REST API Backend
+  # ----------------------------------------------------------------------------
+  - type: web
+    name: sih-weather-backend
+    runtime: docker
+    dockerfilePath: backend.Dockerfile
+    plan: free
+    healthCheckPath: /healthz
+    startCommand: sh -c "alembic upgrade head && python -m demo.seed && uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: sih-weather-db
+          property: connectionString
+      - key: ENVIRONMENT
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: LLM_BACKEND
+        value: gemini
+      - key: GOOGLE_AI_STUDIO_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: CARTO_API_KEY
+        value: cb1_2yru_1_be975c21c3c99af922bcf25c
+      - key: NEXT_PUBLIC_CARTO_API_KEY
+        value: cb1_2yru_1_be975c21c3c99af922bcf25c
+      - key: OPENWEATHER_API_KEY
+        value: 268a83a22f0b1f62b3a4d43dc06e9244
+      - key: WEATHERAPI_KEY
+        value: 188001067e024ac09d8152440260409
+      - key: TOMORROW_IO_API_KEY
+        value: L3oS6sFKMC6R61QJmWJtgRmnqV5vOyIU
+
+  # ----------------------------------------------------------------------------
+  # 2. Next.js Command Center Frontend
+  # ----------------------------------------------------------------------------
+  - type: web
+    name: sih-weather-frontend
+    runtime: node
+    rootDir: frontend
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          type: web
+          name: sih-weather-backend
+          property: host
+      - key: NEXT_PUBLIC_CARTO_API_KEY
+        value: cb1_2yru_1_be975c21c3c99af922bcf25c
+      - key: NEXT_PUBLIC_MAPTILER_KEY
+        value: JAI9tztyvk89wmyqsDWx
+      - key: NODE_ENV
+        value: production

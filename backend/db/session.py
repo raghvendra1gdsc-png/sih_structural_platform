@@ -41,6 +41,9 @@ def engine_from_url(database_url: str = _DEFAULT_DATABASE_URL) -> Engine:
     -------
     Engine
     """
+    if database_url.startswith("postgres://"):
+        database_url = database_url.replace("postgres://", "postgresql://", 1)
+
     engine = create_engine(
         database_url,
         pool_pre_ping=True,         # verify connection liveness before use
