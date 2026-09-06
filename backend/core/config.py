@@ -6,7 +6,8 @@ National Weather Big Data Analytics Platform
 from __future__ import annotations
 
 import os
-from pydantic import Field
+from typing import Any, Union
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -73,15 +74,29 @@ class Settings(BaseSettings):
     SECRET_KEY: str = Field(
         default_factory=lambda: os.getenv("SECRET_KEY", "insecure-dev-default")
     )
-    # CORS_ORIGINS is NOT read from .env to avoid pydantic-settings JSON parsing issues.
-    # Edit this list directly or set it programmatically.
-    CORS_ORIGINS: list[str] = [
+    CORS_ORIGINS: Union[list[str], str] = [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "http://localhost:8000",
         "http://127.0.0.1:8000",
         "*",
     ]
+
+    @field_validator("CORS_ORIGINS", mode="before")
+    @classmethod
+    def assemble_cors_origins(cls, v: Any) -> list[str]:
+        if isinstance(v, str):
+            v = v.strip()
+            if v.startswith("[") and v.endswith("]"):
+                try:
+                    import json
+                    return json.loads(v)
+                except Exception:
+                    pass
+            return [x.strip() for x in v.split(",") if x.strip()]
+        elif isinstance(v, (list, tuple)):
+            return list(v)
+        return ["*"]
 
 
 settings = Settings()
