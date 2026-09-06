@@ -1,0 +1,3 @@
+# Phase 3 (CLIP) will populate this directory with demo structural damage images.
+# Image filename conventions match those in synthetic_report_generator.py:
+#   demo_crack_001.jpg, demo_partial_collapse_001.jpg, etc.

@@ -1,0 +1,418 @@
+[
+  {
+    "filename": "xbd_001_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 1 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_002_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 2 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_003_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 3 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_004_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 4 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_005_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 5 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_006_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 6 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_007_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 7 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_008_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 8 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_009_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 9 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_010_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 10 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_011_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 11 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_012_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 12 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_013_no_damage.jpg",
+    "damage_type": "unknown",
+    "damage_severity": "none",
+    "xbd_label": "no-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Structurally sound intact multi-story building with pristine walls and windows (Sample 13 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_014_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 1 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_015_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 2 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_016_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 3 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_017_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 4 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_018_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 5 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_019_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 6 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_020_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 7 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_021_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 8 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_022_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 9 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_023_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 10 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_024_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 11 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_025_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 12 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_026_minor_damage.jpg",
+    "damage_type": "facade_damage",
+    "damage_severity": "minor",
+    "xbd_label": "minor-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 13 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_027_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 1 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_028_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 2 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_029_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 3 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_030_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 4 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_031_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 5 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_032_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 6 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_033_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 7 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_034_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 8 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_035_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 9 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_036_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 10 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_037_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 11 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_038_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 12 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_039_major_damage.jpg",
+    "damage_type": "structural_crack",
+    "damage_severity": "severe",
+    "xbd_label": "major-damage",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 13 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_040_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 1 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_041_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 2 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_042_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 3 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_043_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 4 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_044_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 5 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_045_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 6 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_046_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 7 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_047_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 8 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_048_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 9 from Turkey Syria Earthquake 2023)"
+  },
+  {
+    "filename": "xbd_049_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "nepal_earthquake_2015",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 10 from Nepal Earthquake 2015)"
+  },
+  {
+    "filename": "xbd_050_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "bhuj_earthquake_2001",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 11 from Bhuj Earthquake 2001)"
+  },
+  {
+    "filename": "xbd_051_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "mexico_earthquake_2017",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 12 from Mexico Earthquake 2017)"
+  },
+  {
+    "filename": "xbd_052_destroyed.jpg",
+    "damage_type": "complete_collapse",
+    "damage_severity": "destroyed",
+    "xbd_label": "destroyed",
+    "source_event": "turkey_syria_earthquake_2023",
+    "description": "Completely collapsed structure flattened to ground with rubble pile, fractured concrete slabs and rebar (Sample 13 from Turkey Syria Earthquake 2023)"
+  }
+]

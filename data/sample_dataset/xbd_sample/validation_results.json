@@ -1,0 +1,357 @@
+{
+  "timestamp": "2026-09-04T09:27:11Z",
+  "model_name": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "device": "mps",
+  "inference_duration_seconds": 5.18,
+  "total_samples": 52,
+  "severity_evaluation": {
+    "accuracy": 0.2692,
+    "macro_f1": 0.1389,
+    "macro_precision": 0.315,
+    "macro_recall": 0.2692,
+    "total_samples": 52,
+    "per_class": {
+      "destroyed": {
+        "precision": 1.0,
+        "recall": 0.0769,
+        "f1_score": 0.1429,
+        "support": 13
+      },
+      "minor": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 13
+      },
+      "moderate": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 0
+      },
+      "none": {
+        "precision": 0.26,
+        "recall": 1.0,
+        "f1_score": 0.4127,
+        "support": 13
+      },
+      "severe": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 13
+      }
+    },
+    "confusion_matrix": {
+      "destroyed": {
+        "destroyed": 1,
+        "minor": 0,
+        "moderate": 0,
+        "none": 12,
+        "severe": 0
+      },
+      "minor": {
+        "destroyed": 0,
+        "minor": 0,
+        "moderate": 1,
+        "none": 12,
+        "severe": 0
+      },
+      "moderate": {
+        "destroyed": 0,
+        "minor": 0,
+        "moderate": 0,
+        "none": 0,
+        "severe": 0
+      },
+      "none": {
+        "destroyed": 0,
+        "minor": 0,
+        "moderate": 0,
+        "none": 13,
+        "severe": 0
+      },
+      "severe": {
+        "destroyed": 0,
+        "minor": 0,
+        "moderate": 0,
+        "none": 13,
+        "severe": 0
+      }
+    }
+  },
+  "damage_type_evaluation": {
+    "accuracy": 0.2692,
+    "macro_f1": 0.1373,
+    "macro_precision": 0.3137,
+    "macro_recall": 0.2692,
+    "total_samples": 52,
+    "per_class": {
+      "complete_collapse": {
+        "precision": 1.0,
+        "recall": 0.0769,
+        "f1_score": 0.1429,
+        "support": 13
+      },
+      "facade_damage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 13
+      },
+      "structural_crack": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 13
+      },
+      "unknown": {
+        "precision": 0.2549,
+        "recall": 1.0,
+        "f1_score": 0.4062,
+        "support": 13
+      }
+    },
+    "confusion_matrix": {
+      "complete_collapse": {
+        "complete_collapse": 1,
+        "facade_damage": 0,
+        "structural_crack": 0,
+        "unknown": 12
+      },
+      "facade_damage": {
+        "complete_collapse": 0,
+        "facade_damage": 0,
+        "structural_crack": 0,
+        "unknown": 13
+      },
+      "structural_crack": {
+        "complete_collapse": 0,
+        "facade_damage": 0,
+        "structural_crack": 0,
+        "unknown": 13
+      },
+      "unknown": {
+        "complete_collapse": 0,
+        "facade_damage": 0,
+        "structural_crack": 0,
+        "unknown": 13
+      }
+    }
+  },
+  "misclassified_samples": [
+    {
+      "filename": "xbd_014_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.9142,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.9619,
+      "damage_type_correct": false,
+      "source_event": "bhuj_earthquake_2001",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 1 from Bhuj Earthquake 2001)"
+    },
+    {
+      "filename": "xbd_015_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.8173,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.9119,
+      "damage_type_correct": false,
+      "source_event": "mexico_earthquake_2017",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 2 from Mexico Earthquake 2017)"
+    },
+    {
+      "filename": "xbd_016_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.8051,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.954,
+      "damage_type_correct": false,
+      "source_event": "turkey_syria_earthquake_2023",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 3 from Turkey Syria Earthquake 2023)"
+    },
+    {
+      "filename": "xbd_017_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.6898,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.7969,
+      "damage_type_correct": false,
+      "source_event": "nepal_earthquake_2015",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 4 from Nepal Earthquake 2015)"
+    },
+    {
+      "filename": "xbd_018_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.7458,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.9545,
+      "damage_type_correct": false,
+      "source_event": "bhuj_earthquake_2001",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 5 from Bhuj Earthquake 2001)"
+    },
+    {
+      "filename": "xbd_019_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.4402,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.8069,
+      "damage_type_correct": false,
+      "source_event": "mexico_earthquake_2017",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 6 from Mexico Earthquake 2017)"
+    },
+    {
+      "filename": "xbd_020_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.9182,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.9834,
+      "damage_type_correct": false,
+      "source_event": "turkey_syria_earthquake_2023",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 7 from Turkey Syria Earthquake 2023)"
+    },
+    {
+      "filename": "xbd_021_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.9138,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.984,
+      "damage_type_correct": false,
+      "source_event": "nepal_earthquake_2015",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 8 from Nepal Earthquake 2015)"
+    },
+    {
+      "filename": "xbd_022_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.6563,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.9226,
+      "damage_type_correct": false,
+      "source_event": "bhuj_earthquake_2001",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 9 from Bhuj Earthquake 2001)"
+    },
+    {
+      "filename": "xbd_023_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.9374,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.9842,
+      "damage_type_correct": false,
+      "source_event": "mexico_earthquake_2017",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 10 from Mexico Earthquake 2017)"
+    },
+    {
+      "filename": "xbd_024_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "moderate",
+      "severity_confidence": 0.5156,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.8311,
+      "damage_type_correct": false,
+      "source_event": "turkey_syria_earthquake_2023",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 11 from Turkey Syria Earthquake 2023)"
+    },
+    {
+      "filename": "xbd_025_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.8211,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.9033,
+      "damage_type_correct": false,
+      "source_event": "nepal_earthquake_2015",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 12 from Nepal Earthquake 2015)"
+    },
+    {
+      "filename": "xbd_026_minor_damage.jpg",
+      "xbd_label": "minor-damage",
+      "ground_truth_severity": "minor",
+      "predicted_severity": "none",
+      "severity_confidence": 0.7483,
+      "severity_correct": false,
+      "ground_truth_damage_type": "facade_damage",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.9402,
+      "damage_type_correct": false,
+      "source_event": "bhuj_earthquake_2001",
+      "description": "Standing residential building with minor hairline cracks and superficial plaster peeling (Sample 13 from Bhuj Earthquake 2001)"
+    },
+    {
+      "filename": "xbd_027_major_damage.jpg",
+      "xbd_label": "major-damage",
+      "ground_truth_severity": "severe",
+      "predicted_severity": "none",
+      "severity_confidence": 0.4351,
+      "severity_correct": false,
+      "ground_truth_damage_type": "structural_crack",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.8738,
+      "damage_type_correct": false,
+      "source_event": "mexico_earthquake_2017",
+      "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 1 from Mexico Earthquake 2017)"
+    },
+    {
+      "filename": "xbd_028_major_damage.jpg",
+      "xbd_label": "major-damage",
+      "ground_truth_severity": "severe",
+      "predicted_severity": "none",
+      "severity_confidence": 0.5811,
+      "severity_correct": false,
+      "ground_truth_damage_type": "structural_crack",
+      "predicted_damage_type": "unknown",
+      "damage_type_confidence": 0.7999,
+      "damage_type_correct": false,
+      "source_event": "turkey_syria_earthquake_2023",
+      "description": "Building with deep diagonal shear cracks through load-bearing walls and partial structural failure (Sample 2 from Turkey Syria Earthquake 2023)"
+    }
+  ],
+  "total_misclassified_count": 38,
+  "scientific_integrity_disclaimer": "This validation reflects empirical zero-shot OpenCLIP performance on the standardized xBD benchmark subset. This is an automated visual triage signal intended to prioritize reports for human verification, not a certified structural engineering safety determination."
+}

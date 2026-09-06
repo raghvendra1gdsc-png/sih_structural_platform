@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap');
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background: #12211A;
+  --panel: #192A21;
+  --panel-raised: #21362B;
+  --text-primary: #F2FBF6;
+  --text-secondary: #98B5A5;
+  --accent: #34D399;
+}
+
+body {
+  background: radial-gradient(ellipse at 50% 15%, #2d4c3e 0%, #1c3227 45%, #101d16 100%);
+  background-attachment: fixed;
+  color: #F2FBF6;
+  min-height: 100vh;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-glow-green {
+  text-shadow: 0 0 20px rgba(16, 185, 129, 0.45);
+}
+
+.box-glow-green {
+  box-shadow: 0 0 24px -4px rgba(16, 185, 129, 0.25);
+}
+
+/* Tabular figures for numbers, timers, coordinates */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0C10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F242C;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #323A46;
+}
+
+/* Leaflet dark theme adjustments */
+.leaflet-container {
+  background: #0A0C10 !important;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #12151A !important;
+  color: #E8EAED !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.75) !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background: #12151A !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.custom-leaflet-tooltip {
+  background: rgba(18, 21, 26, 0.95) !important;
+  color: #E8EAED !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 6px !important;
+  padding: 4px 8px !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before,
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before {
+  border-color: transparent !important;
+}

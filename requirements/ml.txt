@@ -1,7 +1,8 @@
-torch
-torchvision
 open-clip-torch
+torchvision
 sentence-transformers
+imagehash
 Pillow
 numpy
 pandas
+
