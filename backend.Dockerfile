@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir torch torchvision --index-url https://download.py
 RUN pip install --no-cache-dir -r requirements/ml.txt
 COPY . /app/
 EXPOSE 8000
-CMD ["sh", "-c", "uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+CMD ["sh", "-c", "alembic upgrade head && python -m demo.seed && uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
